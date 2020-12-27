@@ -1,0 +1,17 @@
+		.map{
+			background: white;
+			animation:example 2s infinite;
+			animation-timing-function: linear;
+			animation-direction: alternate-reverse;  
+		}
+		@keyframes example {
+			0% {background: radial-gradient(#76b6c4 0%, #1da2d8 40%,#7fcdff 70%, #064273 100%);}
+			25% {background: radial-gradient(#76b6c4 0%, #1da2d8 50%,#7fcdff 80%, #064273 100%);}
+			50% {background: radial-gradient(#76b6c4 0%, #1da2d8 60%,#7fcdff 90%, #064273 100%);}
+			75% {background: radial-gradient(#76b6c4 0%, #1da2d8 70%,#7fcdff 100%, #064273 100%);}
+			100% {background: radial-gradient(#76b6c4 0%, #1da2d8 100%,#7fcdff 100%, #064273 100%);}
+		}
+		.content h2{
+			color: #000032;
+			font-weight: bold;
+		}

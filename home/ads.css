@@ -1,0 +1,49 @@
+		:root{
+			--bgPgAct:#4CAF50;
+			--bgPgHov:#ddd;
+			--bgAdHover:#333333;
+			--bgAdshadow:#111111;
+			--clrAdFt:#ffffff;
+		}
+
+/*----pagination----*/
+		.pagination {
+		  	display: inline-block;
+		}
+		.pagination a {
+		  	color: black;
+		  	float: left;
+		  	padding: 8px 16px;
+		  	text-decoration: none;
+		}
+		.pagination #active {
+		  	background-color: var(--bgPgAct);
+		  	color: white;
+		}
+		.pagination a:hover:not(.active) {background-color: var(--bgPgHov);}
+		.ad-item{
+			padding: 2em 2vw;
+		}
+
+/*----ads----*/
+		.ad-item-details{
+			text-align: left;
+		/*	text-indent: 2rem;*/
+			padding-left: 2em;
+			vertical-align: top;
+		}
+		.ad-item-img{
+			height: 25vh;
+		}
+		.ad-item a{
+			opacity: 1;
+			display: inline-block;
+			color: var(--clrAdFt);
+			float: left;
+			width: 100%;
+		}
+		.ad-item a:hover{
+			background-color: var(--bgAdHover);
+			box-shadow: 5px 10px var(--bgAdshadow);
+			opacity: 0.6;
+		}		

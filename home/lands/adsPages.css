@@ -1,0 +1,70 @@
+			*{
+				box-sizing:border-box;
+			
+			}
+			
+			body{
+				margin:0;
+			
+			}
+			
+			.col{
+				float:left;
+				padding:20px;
+			
+			}
+			
+			.col.left{
+				width:15%;
+				color:black;
+				height:750px;
+				padding:20px;
+			
+			}
+			
+			.col.middle{
+				width:70%;
+				background-color: #ddd; 
+				height:750px;
+				
+				
+			}
+			div.text{
+				font-weight:bold;
+				font-family:Lucida Calligraphy;
+				font-size:50px;
+				text-align:center;
+			
+			}
+		
+			div.container1{
+				width:30%;
+				float:right;
+				overflow:auto;
+				padding:20px;
+				text-align:justify;
+			
+			}
+			div.container2{
+				width:50%;
+				overflow:auto;
+				padding:20px 20px 20px 70px;
+				text-align:justify;
+			
+			}
+			div.text2{
+				font-weight:bold;
+				font-family:Lucida Calligraphy;
+				font-size:30px;
+				text-align:left;
+			
+			}
+		
+			
+			.col.right{
+				width:15%;
+				color:black;
+				height:750px;
+				padding:20px;
+			
+			}

@@ -1,0 +1,53 @@
+		:root{
+			--bgBtn:rgb(125, 119, 119);
+			--bgFldst:rgba(184,180,180,0.2);
+			--clrLeg:#000032;
+			--clrLink:white;
+			--clrTD:#000032;
+		}
+		.content td{
+			color: var(--clrTD);
+		}
+		.content fieldset{
+		    margin: 10px;
+		    padding: 10px;
+		    line-height: 50px;
+		    background: var(--bgFldst);
+		   
+		}
+
+		.content legend{
+		    color: var(--clrLeg);
+		    font-weight: 900;
+		    font-size: 2em;
+		}
+
+		.content input{
+		    border-radius: 3px;
+		    border: 1px solid black;
+		    padding: 7px;
+		    outline-style: hidden;
+		}
+
+		.content input[type=submit]{
+		    width: 175px;
+		    padding: 12px 0;
+		    background-color: var(--bgBtn);
+		    color: white;
+		    font-weight: bold;
+		    cursor: pointer;
+		 }
+		 .content input[type=reset]{
+		    width: 175px;
+		    padding: 12px 0;
+		    background-color: var(--bgBtn);
+		    color: white;
+		    font-weight: bold;
+		    cursor: pointer;
+		 }
+		 .content h4{
+		 	text-indent: 15px;
+		 }
+		 .content a{
+		 	color: var(--clrLink);
+		 }
