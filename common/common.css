@@ -38,6 +38,9 @@
 		.col-pc-100{
 			width: 100%;
 		}
+		.col-pc-80{
+			width: 80%;
+		}
 		.col-pc-75{
 			width: 75%;
 		}
@@ -46,6 +49,9 @@
 		}			
 		.col-pc-50{
 			width: 50%;
+		}
+		.col-pc-40{
+			width: 40%;
 		}
 		.col-pc-33{
 			width: 33.33%;
@@ -71,6 +77,9 @@
 		.col-tb-100{
 			width: 100%;
 		}
+		.col-tb-80{
+			width: 80%;
+		}
 		.col-tb-75{
 			width: 75%;
 		}
@@ -79,6 +88,9 @@
 		}		
 		.col-tb-50{
 			width: 50%;
+		}
+		.col-tb-40{
+			width: 40%;
 		}
 		.col-tb-33{
 			width: 33.33%;
@@ -104,6 +116,9 @@
 		.col-mb-100{
 			width: 100%;
 		}
+		.col-mb-80{
+			width: 80%;
+		}
 		.col-mb-75{
 			width: 75%;
 		}
@@ -112,6 +127,9 @@
 		}			
 		.col-mb-50{
 			width: 50%;
+		}
+		.col-mb-40{
+			width: 40%;
 		}
 		.col-mb-33{
 			width: 33.33%;

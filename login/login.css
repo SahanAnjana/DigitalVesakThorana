@@ -5,8 +5,14 @@
 			--clrLink:white;
 			--clrTD:#000032;
 		}
-		.content td{
+		.content .description{
+			text-align: left;
 			color: var(--clrTD);
+		}
+		.content .value{
+			text-align: left;
+			color: var(--clrTD);
+			padding-left: 2vw;
 		}
 		.content fieldset{
 		    margin: 10px;
@@ -19,7 +25,7 @@
 		.content legend{
 		    color: var(--clrLeg);
 		    font-weight: 900;
-		    font-size: 2em;
+		    font-size: 2rem;
 		}
 
 		.content input{
